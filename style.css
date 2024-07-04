@@ -7,8 +7,8 @@
 }
 
 :root {
-    --dark:#34495e;
-    --light:#ffffff;
+    --dark:#F7F8FD;
+    --light:#0D0D21;
     --success:#0abf30;
     --error:#e24dac;
     --warning:#e9bd0c;
@@ -126,6 +126,7 @@ body {
     font-size: 1.07rem;
 }
 .toast .column span {
+    color: var(--dark);
     font-size: 1.07rem;
     margin-left: 12px;
 }
